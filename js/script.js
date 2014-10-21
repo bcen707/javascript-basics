@@ -8,9 +8,9 @@
 "use strict";
 
 var person = {
-	fName: 'Jonathan',
-	lName: 'Oh',
-	email: 'ohjon93@uw.edu',
+	fName: 'Billy',
+	lName: 'Cen',
+	email: 'bcen707@uw.edu',
 	getFullName: function() { return this.fName + ' ' + this.lName; }
 }
 //NEVER USE
