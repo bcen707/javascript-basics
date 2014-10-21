@@ -42,22 +42,18 @@ kitty.alt = 'picture of a cool cat';
 document.body.appendChild(kitty);
 
 function onPuppyClick() {
-
  //alert('you clicked my puppy!');
  document.getElementById('bark').play();
-
 } //onPuppyClick()
 
 var pup = document.getElementById('puppy-pic');
 
 if (pup.addEventListener) {
-
- pup.addEventListener('click', onPuppyClick);
+	pup.addEventListener('click', onPuppyClick);
 }
 
 else if (pup.attachEvent) {
-
- pup.attachEvent('click', onPuppyClick);
+	pup.attachEvent('click', onPuppyClick);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
